@@ -1,7 +1,7 @@
 fn main(){
     let temperatura = 25;
     if temperatura < 25{celsius(20);}
-    else if temperatura = 25{
+    else if temperatura == 25{
         let celsius = (temperatura - 32) * 5/9;
         println!("La temperatura es de {celsius}");
     }
